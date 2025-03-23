@@ -1,0 +1,23 @@
+.toolbar {
+    display: grid;
+    grid-template-columns: 1fr auto auto; /* 1fr takes remaining space, auto for buttons */
+    align-items: center; /* Vertically aligns items */
+    gap: 10px; /* Adds space between grid items */
+  }
+  
+.Name{
+    margin-left: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+.Save{
+    font-weight: bold;
+    width: 100px;
+    font-size: 15px;
+}
+.Export{
+    font-weight: bold;
+    width: 100px;
+    font-size: 15px;
+
+}
